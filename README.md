@@ -40,5 +40,3 @@ class BExmple{}
 
 spring integration 
 [https://docs.spring.io/spring-integration/reference/html/overview.html]
-
-aatest
