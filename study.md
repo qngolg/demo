@@ -1,5 +1,10 @@
 1、git  merge vs rebase 的区别
 
+```shell
+#相同点
+
+```
+
 2、git stash 的作用
 
 3、Git pre-push 的作用和目的

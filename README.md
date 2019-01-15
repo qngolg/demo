@@ -1,5 +1,3 @@
-wrote a readme file
-add distributed 
 
 groovy spock测试框架
 [http://spockframework.org/spock/docs/1.0/interaction_based_testing.html]
@@ -42,13 +40,13 @@ class BExmple{}
 spring integration 
 [https://docs.spring.io/spring-integration/reference/html/overview.html]
 
-我要测试11111111111111111111111111
+测试pre-commit mvn test fail
 
 
-22222222222222222222222
-
-
-
-333333333333333333333
-
-44444444444444444444
+```java
+//此处uri上的{cc} 必须和 arg中的参数名完全一致
+@RequestMapping("/aa/bb/{cc}")
+public String hello(@PathVariable String cc){
+    return "";
+}
+```

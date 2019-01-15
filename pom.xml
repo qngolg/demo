@@ -42,16 +42,19 @@
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 
-		<!-- db -->
+		<!-- db
+
 		<dependency>
 			<artifactId>com.querydsl</artifactId>
 			<groupId>querydsl-jpa</groupId>
+			<version>4.1.4</version>
 		</dependency>
 		<dependency>
 			<groupId>com.querydsl</groupId>
 			<artifactId>qyerydsl-apt</artifactId>
+			<version>4.1.4</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
