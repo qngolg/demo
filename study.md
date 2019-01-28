@@ -24,6 +24,10 @@ git pull --rebase #会让commit看起来很自然
 将本地代码 存储在本地仓库
 ```
 
+```jshelllanguage
+#java 读取yml配置文件  snakeyml
+https://www.baeldung.com/java-snake-yaml
+```
 
 
 3、Git pre-push 的作用和目的
