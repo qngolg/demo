@@ -13,3 +13,10 @@ hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds 默认�
 
 ###hystrix默认timeout配置失效的原因
 https://taccisum.github.io/zuul_hystrix_default_timeout_config_invalid_reason_research.html
+
+
+###apollo配置中心  
+解决apollo配置修改后  @PostConstruct 中的配置没有更新
+https://blog.csdn.net/qq_31289187/article/details/84346529
+
+解决方法：给config.addChangeListener 来对配置进行更新
