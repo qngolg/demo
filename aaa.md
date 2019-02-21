@@ -20,3 +20,8 @@ https://taccisum.github.io/zuul_hystrix_default_timeout_config_invalid_reason_re
 https://blog.csdn.net/qq_31289187/article/details/84346529
 
 解决方法：给config.addChangeListener 来对配置进行更新
+
+
+###groovy 判断对象是否为null 并判断里面的值的时候 
+用（obj?obj.getValue:""） == value 
+可以用 三目表达式来做
