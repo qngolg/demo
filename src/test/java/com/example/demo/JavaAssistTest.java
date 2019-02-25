@@ -4,7 +4,6 @@ import javassist.CannotCompileException;
 import javassist.ClassPool;
 import javassist.CtClass;
 import javassist.CtMethod;
-import javassist.bytecode.MethodInfo;
 import org.junit.Test;
 
 import java.lang.reflect.InvocationTargetException;
@@ -25,5 +24,10 @@ public class JavaAssistTest {
         Object instance = aClass.newInstance();
         Method method = aClass.getDeclaredMethod("say");
         method.invoke(instance);
+    }
+
+    @Test
+    public void test(){
+
     }
 }
