@@ -2,10 +2,8 @@ package com.example.demo;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.OptionalInt;
+import java.math.BigInteger;
+import java.util.*;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -20,6 +18,7 @@ public class StreamTest {
                 .mapToInt(String::length)
                 .max();
         System.out.println(optionalInt.getAsInt());
+        BigInteger.probablePrime(11, new Random());
     }
 
     private static <T, R> Predicate<T> convert(Function<T, R> converter) {
