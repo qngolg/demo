@@ -12,15 +12,15 @@ import java.util.concurrent.TimeUnit;
 public class JsonTest {
 
     @Param({"1000", "10000", "10000"})
-    private int count;
+    public int count;
 
-    private Person p;
+    public Person p;
 
-    @Benchmark
-    public void JsonLib() {
-        for (int i = 0;i < count;i++) {
-
-        }
-    }
+//    @Benchmark
+//    public void JsonLib() {
+//        for (int i = 0;i < count;i++) {
+//
+//        }
+//    }
 
 }
