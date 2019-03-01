@@ -8,3 +8,10 @@ Session分享计划
 4、怎么使用Stream，Stream使用方法
 5、Stream的实现原理，怎么实现一个Stream
 6、Stream的函数式思想
+
+
+课题二：JMH性能测试框架
+
+1、什么是JMH
+2、为什么要用JMH,JMH的好处
+3、怎么用JMH

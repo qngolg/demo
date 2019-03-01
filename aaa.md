@@ -25,3 +25,6 @@ https://blog.csdn.net/qq_31289187/article/details/84346529
 ###groovy 判断对象是否为null 并判断里面的值的时候 
 用（obj?obj.getValue:""） == value 
 可以用 三目表达式来做
+
+
+##
