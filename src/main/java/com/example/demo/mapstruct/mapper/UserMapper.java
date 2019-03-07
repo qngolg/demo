@@ -16,3 +16,7 @@ public interface UserMapper {
     Employee userToEmployee(User user);
     User employeeToUser(Employee employee);
 }
+
+interface <T,R> f2 {
+
+}
