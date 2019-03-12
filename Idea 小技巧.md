@@ -7,6 +7,8 @@ https://github.com/frontend9/fe9-library/issues/79
 ###idea自动生成测试类
 Ctrl + Shift + T   自动生成测试类
 
+### spock
+http://spockframework.org/spock/docs/1.1/all_in_one.html
 
 
 

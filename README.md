@@ -50,3 +50,10 @@ public String hello(@PathVariable String cc){
     return "";
 }
 ```
+
+
+问题域和解决域
+首先去考虑问题域的东西
+在去考虑解决域的东西
+
+

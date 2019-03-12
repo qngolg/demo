@@ -6,6 +6,7 @@
 	<modules>
 		<module>../stream-demo</module>
         <module>../FibonacciNumber</module>
+        <module>../testaaa</module>
     </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
