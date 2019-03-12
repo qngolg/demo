@@ -17,6 +17,4 @@ public interface UserMapper {
     User employeeToUser(Employee employee);
 }
 
-interface <T,R> f2 {
 
-}

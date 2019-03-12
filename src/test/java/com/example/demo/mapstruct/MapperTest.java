@@ -9,10 +9,10 @@ public class MapperTest {
 
     @Test
     public void userToEmployee(){
-        User user = new User();
-        user.setId(1234);user.setName("Lee");user.setMarried(false);
-
-        Employee e = UserMapper.INSTANCE.userToEmployee(user);
-        System.out.println(e);
+//        User user = new User();
+//        user.setId(1234);user.setName("Lee");user.setMarried(false);
+//
+//        Employee e = UserMapper.INSTANCE.userToEmployee(user);
+//        System.out.println(e);
     }
 }

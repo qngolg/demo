@@ -5,7 +5,8 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>../stream-demo</module>
-	</modules>
+        <module>../FibonacciNumber</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -145,6 +146,12 @@
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>27.0.1-jre</version>
+		</dependency>
+
+		<!-- groovy -->
+		<dependency>
+			<groupId></groupId>
+			<artifactId>groovy</artifactId>
 		</dependency>
 
 	</dependencies>

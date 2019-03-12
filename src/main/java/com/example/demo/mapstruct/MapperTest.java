@@ -6,9 +6,9 @@ import com.example.demo.mapstruct.mapper.UserMapper;
 
 public class MapperTest {
     public static void main(String[] args) {
-        User user = User.builder().id(123).name("Lee").married(false).build();
-
-        Employee e = UserMapper.INSTANCE.userToEmployee(user);
-        System.out.println(e);
+//        User user = User.builder().id(123).name("Lee").married(false).build();
+//
+//        Employee e = UserMapper.INSTANCE.userToEmployee(user);
+//        System.out.println(e);
     }
 }
