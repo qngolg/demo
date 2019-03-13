@@ -3,6 +3,8 @@ Session分享计划
 课题一：不一样的Stream
 
 1、什么是Stream
+    Stream是流式处理框架
+
 2、大家熟知的Stream，不一样的Stream
 3、为什么要用Stream
 4、怎么使用Stream，Stream使用方法
@@ -15,7 +17,3 @@ Session分享计划
 1、什么是JMH
 2、为什么要用JMH,JMH的好处
 3、怎么用JMH
-
-
-### stream session分享图
-https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/index.html
