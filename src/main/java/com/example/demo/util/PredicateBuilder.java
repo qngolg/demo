@@ -1,6 +1,7 @@
 package com.example.demo.util;
 
 import com.querydsl.core.BooleanBuilder;
+import com.querydsl.core.types.Predicate;
 import com.querydsl.core.types.dsl.BooleanExpression;
 
 import java.util.Objects;
@@ -32,6 +33,10 @@ public class PredicateBuilder {
             builder.and(expression.apply(value));
         }
         return this;
+    }
+
+    public Predicate build(){
+        return builder.getValue();
     }
 
 }
