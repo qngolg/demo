@@ -149,12 +149,6 @@
 			<version>27.0.1-jre</version>
 		</dependency>
 
-		<!-- groovy -->
-		<dependency>
-			<groupId></groupId>
-			<artifactId>groovy</artifactId>
-		</dependency>
-
 	</dependencies>
 
 	<dependencyManagement>
