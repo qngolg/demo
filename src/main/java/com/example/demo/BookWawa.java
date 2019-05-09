@@ -24,4 +24,10 @@ public class BookWawa {
     public void setRemark(String remark) {
         this.remark = remark;
     }
+
+    private transient int a = 0;
+
+    public static void main(String[] args) {
+
+    }
 }
