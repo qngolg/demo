@@ -17,4 +17,17 @@ public class Demo {
     public String add(int i){
         return i + "100" ;
     }
+
+    public static void main(String[] args) {
+        IntStream range = IntStream.range(1, 1000);
+        range.forEach(i -> {
+            /**
+             * 流已经被打开了 不能再使用了
+             * Exception in thread "main" java.lang.IllegalStateException: stream has already been operated upon or closed
+             */
+            int i1 = range.skip(i + 1).findFirst().orElse(0);
+            System.out.println("当前元素：" + i + "  下一个元素：" + i1);
+
+        });
+    }
 }
